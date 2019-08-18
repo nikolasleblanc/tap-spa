@@ -3967,8 +3967,8 @@
       console.log('this guy got called')
       if ('undefined' != typeof MutationObserver && !u && document.body) {
         console.log('start DOM Observer', null, i.DEBUG)
-        var t = function() {
-          console.log('DOM mutation observed', null, i.DEBUG),
+        var t = function(a) {
+          console.log('DOM mutation observed', null, i.DEBUG, a),
             e.applyVisualEditsFromConfig(o.config)
         }
         ;(u = new MutationObserver(
