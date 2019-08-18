@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tap-spa/static/css/main.2cce8147.chunk.css",
-    "main.js": "/tap-spa/static/js/main.f634bc40.chunk.js",
-    "main.js.map": "/tap-spa/static/js/main.f634bc40.chunk.js.map",
+    "main.js": "/tap-spa/static/js/main.4c6a600a.chunk.js",
+    "main.js.map": "/tap-spa/static/js/main.4c6a600a.chunk.js.map",
     "runtime~main.js": "/tap-spa/static/js/runtime~main.af2d4380.js",
     "runtime~main.js.map": "/tap-spa/static/js/runtime~main.af2d4380.js.map",
     "static/js/2.d883065f.chunk.js": "/tap-spa/static/js/2.d883065f.chunk.js",
     "static/js/2.d883065f.chunk.js.map": "/tap-spa/static/js/2.d883065f.chunk.js.map",
     "index.html": "/tap-spa/index.html",
-    "precache-manifest.4615b84c95a0d67d5d4162e78fedee19.js": "/tap-spa/precache-manifest.4615b84c95a0d67d5d4162e78fedee19.js",
+    "precache-manifest.adec2ee382ace89cdc4e47eb9c561542.js": "/tap-spa/precache-manifest.adec2ee382ace89cdc4e47eb9c561542.js",
     "service-worker.js": "/tap-spa/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/tap-spa/static/css/main.2cce8147.chunk.css.map"
   }
