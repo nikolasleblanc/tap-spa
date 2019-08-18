@@ -3990,6 +3990,7 @@
       if (t && t.webModifications && t.webElements) {
         l(), i.log('Apply visual edits from config', null, i.DEBUG)
         var e = s.buildUrlFromLocation(window.location)
+        console.log('here', document.querySelector('body'));
         t.webModifications.forEach(function(r) {
           if (r) {
             var n = t.webElements.find(function(t) {
