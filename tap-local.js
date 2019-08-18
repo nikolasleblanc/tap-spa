@@ -3964,7 +3964,7 @@
         document.body && (l(), clearInterval(c), (c = null))
       }, 1)
     function l() {
-      console.log('this guy got called');
+      console.log('this guy got called')
       if ('undefined' != typeof MutationObserver && !u && document.body) {
         console.log('start DOM Observer', null, i.DEBUG)
         var t = function() {
@@ -3991,7 +3991,7 @@
       if (t && t.webModifications && t.webElements) {
         l(), i.log('Apply visual edits from config', null, i.DEBUG)
         var e = s.buildUrlFromLocation(window.location)
-        console.log('here', document.querySelector('#root'));
+        console.log('here', document.querySelector('#root').innerHTML)
         t.webModifications.forEach(function(r) {
           if (r) {
             var n = t.webElements.find(function(t) {
