@@ -21,9 +21,6 @@ class ReactRouterTap extends React.Component {
       console.error('[taplytics] Tracking ID is required.')
       return
     }
-
-    console.log('setup')
-    console.log('we see you baby, routing that path')
   }
 
   sendPageView(location) {
@@ -46,8 +43,6 @@ class ReactRouterTap extends React.Component {
     const page = this.props.basename
       ? `${this.props.basename}${location.pathname}`
       : location.pathname
-
-    console.log('we see you baby, routing that path', page)
 
     if (this.props.debug) {
       console.info(`[taplytics] Page view: ${page}`)
