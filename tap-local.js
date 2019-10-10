@@ -4771,3 +4771,4 @@
 ])
 //# sourceMappingURL=taplytics.min.js.map
 Taplytics.init('fd1e0c78e8c041798002726a30d9d4ff')
+console.log('new')
