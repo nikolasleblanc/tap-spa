@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06a403c799fe9843712b6b55f94988fb",
+    "revision": "431426f2803cdd3f45dee05998c13654",
     "url": "/tap-spa/index.html"
   },
   {
