@@ -5,29 +5,11 @@ import { Link } from 'react-router-dom'
 import ReactRouterTap from './tap'
 
 const Taplytics = window.Taplytics
-const pere = window.pere
+console.log('isReady', Taplytics.isReady())
 
 const About = () => {
-  console.log('hey here we are')
-  const ref = useRef(null)
-  const playbackRef = useRef(null)
-  useEffect(() => {
-    // setTimeout(() => {
-    console.log(ref.current)
-    const edits = []
-    const editsPush = (edit) => {
-      console.log(edits)
-      edits.push(edit)
-    }
-    pere.record(ref.current, editsPush)
-    // }, 5000)
-    console.log('edits', edits)
-    // setTimeout(() => {
-    //   pere.playback(playbackRef.current, edits)
-    // }, 5000)
-  }, [])
   return (
-    <div ref={ref}>
+    <div>
       <h1 className="header">About</h1>
       {Taplytics && Taplytics.featureFlagEnabled('showKitten') ? (
         <img alt="" src="//placekitten.com/250/300" />
@@ -46,7 +28,6 @@ const About = () => {
         Mauris dapibus volutpat massa quis euismod. In hac habitasse platea
         dictumst. Integer iaculis leo neque, in tristique nisi iaculis ut.
       </p>
-      <div ref={playbackRef} />
     </div>
   )
 }
