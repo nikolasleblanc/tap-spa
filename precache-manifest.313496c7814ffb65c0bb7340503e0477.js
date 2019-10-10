@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff7bcaf6982dbb883b5f66aa307a5438",
+    "revision": "9b5c4bc4b073f0c2202070c57533c021",
     "url": "/tap-spa/index.html"
   },
   {
-    "revision": "ac1f8e024df6fef05671",
+    "revision": "67f211f25fe520c8b0a5",
     "url": "/tap-spa/static/css/main.2cce8147.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tap-spa/static/js/2.d883065f.chunk.js"
   },
   {
-    "revision": "ac1f8e024df6fef05671",
-    "url": "/tap-spa/static/js/main.72f9594e.chunk.js"
+    "revision": "67f211f25fe520c8b0a5",
+    "url": "/tap-spa/static/js/main.abb69f15.chunk.js"
   },
   {
     "revision": "c7b6f1acf909c6a18cf4",
