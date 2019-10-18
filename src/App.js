@@ -3,8 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import ReactRouterTap from './tap'
-
-const Taplytics = window.Taplytics
+import Taplytics from './tap-module';
 
 const About = () => {
   return (
