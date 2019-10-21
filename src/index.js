@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Taplytics from './tap-module';
+import Taplytics from '@taplytics/js-sdk';
 
 Taplytics.init("fd1e0c78e8c041798002726a30d9d4ff");
 
